@@ -9,7 +9,7 @@ class Ctest extends Thread {
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 10000; j++)
                 ;
-            System.out.println(id + "is running..");
+            System.out.println(id + " is running..");
         }
     }
 }
