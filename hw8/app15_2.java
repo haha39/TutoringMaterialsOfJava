@@ -16,8 +16,8 @@ class Ctest1 implements Runnable {
 
 public class app15_2 {
     public static void main(String[] args) {
-        Ctest dog = new Ctest("doggy");
-        Ctest cat = new Ctest("kitty");
+        Ctest1 dog = new Ctest1("doggy");
+        Ctest1 cat = new Ctest1("kitty");
 
         Thread t1 = new Thread(dog);
         Thread t2 = new Thread(cat);
