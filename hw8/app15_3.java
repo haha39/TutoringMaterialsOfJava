@@ -11,7 +11,7 @@ class Ctest2 extends Thread {
                 sleep((int) (1000 * Math.random()));
             } catch (InterruptedException e) {
             }
-            System.out.println(id + "is running..");
+            System.out.println(id + " is running..");
         }
     }
 }
