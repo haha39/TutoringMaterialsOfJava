@@ -11,7 +11,7 @@ class Ctest3 extends Thread {
                 sleep((int) (1000));
             } catch (InterruptedException e) {
             }
-            System.out.println(id + " is running..Priority is " + this.getPriority());
+            System.out.println(id + " is running...Priority is " + this.getPriority());
         }
     }
 }
