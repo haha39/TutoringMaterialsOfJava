@@ -1,7 +1,7 @@
 class CBank {
     private static int sum = 0;
 
-    public static void add(int n) {
+    public synchronized static void add(int n) {
         int tmp = sum;
         tmp += n;
         try {
