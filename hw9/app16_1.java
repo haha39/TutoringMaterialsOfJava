@@ -6,6 +6,7 @@ public class app16_1 {
 
         hset.add("monkey");
         hset.add("bunny");
+        hset.add("monkey");
 
         System.out.println("hset :" + hset);
 
