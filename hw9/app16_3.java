@@ -13,8 +13,10 @@ public class app16_3 {
         hset.add("bunny");
         hset.add(str1);
         hset.add(str2);
+        hset.add(str2);
+        hset.add(str2);
 
-        hset.remove(str2);
+        // hset.remove(str2);
 
         hset.remove("bunny");
 
