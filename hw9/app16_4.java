@@ -8,8 +8,6 @@ public class app16_4 {
             tset.add(i);
         }
 
-        // System.out.println("null");
-
         System.out.println("tree set size : " + tset.size());
         System.out.println("tree set : " + tset);
 
