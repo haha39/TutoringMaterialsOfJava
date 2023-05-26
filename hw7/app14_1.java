@@ -9,5 +9,7 @@ public class app14_1 {
         String str = new String(data, 0, size); // enter = \r\n (two chars)
         System.out.println("characters read : " + size);
         System.out.println(str);
+
+        fr.close();
     }
 }
